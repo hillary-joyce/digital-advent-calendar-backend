@@ -3,7 +3,7 @@ class CreateCalendars < ActiveRecord::Migration[5.2]
     create_table :calendars do |t|
       t.string :start_date
       t.string :end_date
-
+      t.string :title
       t.timestamps
     end
   end
