@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'localhost:8000'
+    origins 'http://dog-countdown-calendar.surge.sh/'
 
     resource '*',
       headers: :any,
